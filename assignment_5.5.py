@@ -1,4 +1,3 @@
-import sys
 count = input("Enter number of students: ")
 print("Enter the student name along with marks")
 mydict = {"name": [], "math": [], "physics": [], "chemistry": [], "biology": [], "social-science" :[]}
@@ -14,6 +13,7 @@ for i in range(0, int(count)):
 
 print("Enter the student name along with the subject: ")
 
+# to check student's marks for a subject
 def find():
     while True:
         var = input().split()
@@ -29,6 +29,7 @@ def find():
             break
 find()
 
+# To display marks of one subject for all the students
 subject = input("Enter subject: ")
 x = 0
 x = int(x)
